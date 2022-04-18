@@ -19,7 +19,8 @@ args = parser.parse_args()
 def main():
    try:
 
-      client = boto3.client('dms',region_name=args.region)
+      client = boto3.setup_default_session(region_name=args.region)
+      client = boto3.client('dms')
 
       response = client.describe_replication_tasks(Filters=[ { 'Name': 'replication-task-id', 'Values': [args.task_name] }])
 
