@@ -8,7 +8,9 @@ In many situations you may require to create copy of existing DMS, for example, 
 # Prerequisites 
 
  Python3 https://www.python.org/downloads/
+ 
  Boto3 https://aws.amazon.com/sdk-for-python/
+ 
  AWS profile https://boto3.amazonaws.com/v1/documentation/api/latest/guide/credentials.html
 
 # How to run  
