@@ -13,6 +13,8 @@ In many situations you may require to create copy of existing DMS, for example, 
  
  AWS profile https://boto3.amazonaws.com/v1/documentation/api/latest/guide/credentials.html
 
+Note - As of now this script will work on Linux systems only.
+ 
 # How to run  
 
 At minimum, this script will take DMS task name & AWS region as an input.  
