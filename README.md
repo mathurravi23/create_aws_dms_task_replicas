@@ -39,7 +39,7 @@ example:
   
        $python create_dms_task_replicas.py --task_name ora-apg --region us-east-2 --copies 2 --counter 10 --target_dms_instance <ARN of DMS instance>
   
-    Note: With paramter 'counter' script will use specified number as starting prefix. In above example, script will create tasks 'ora-apg10', 'ora-apg11'.
+    Note: With paramter 'counter' script will use specified number as starting suffix. In above example, script will create tasks 'ora-apg10', 'ora-apg11'.
 
   [3] Create one replica of existing DMS task on new DMS replication instance with in same AWS region but with new source & target endpoints:
   
