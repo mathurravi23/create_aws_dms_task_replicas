@@ -5,6 +5,12 @@ This Python script creates in-region or cross region replicas of existing AWS DM
 
 In many situations you may require to create copy of existing DMS, for example, spliting large database migration into multiple small tasks or taking cross region backup DMS tasks. With this python script, you can easily create multiple copies of existing task with same DMS task settings & table mapping rules. 
 
+# Prerequisites 
+
+ Python3 https://www.python.org/downloads/
+ Boto3 https://aws.amazon.com/sdk-for-python/
+ AWS profile https://boto3.amazonaws.com/v1/documentation/api/latest/guide/credentials.html
+
 # How to run  
 
 At minimum, this script will take DMS task name & AWS region as an input.  
